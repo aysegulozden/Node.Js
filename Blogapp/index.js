@@ -3,7 +3,7 @@ const express = require ("express");//expressi dahil ediyoruz
 const app = express ();//expressi app değişkenine atıyoeuz
 
 app.use(function(req, res){
-    res.end("Uygulamaya herhangi bir soru geldiğinde burda yazan kodlar çalışacak");
+    res.end("Anasayfa");
 })
 
 

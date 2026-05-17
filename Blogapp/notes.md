@@ -15,3 +15,17 @@ npm install
 ```
 
 Bu komut silinen `node_modules` klasörünü yeniden eksiksiz şekilde oluşturur.
+
+## nodemon 
+
+Biz kodumuzda bir değişiklik yaptığımız zaman bunu ekranda görmek için `ctrl+c` komutu ile terminali durdurup kodu tekrardan çalıştırmak zorundaydık .
+
+ Ama `nodemon ` sayesinde buna gerek kalmıyor . terminale  `npm i nodemon --save-dev` yazıp yükleme yapmamız yeterli kurulumu için . 
+
+ Bu paket geliştirme yaparken sunucyu otomatik başlatmak için kurulur. 
+
+ terminalde çalıştırırken de `npx nodemon dosyanızın_adı` komutunu çalıştırmalısınız
+
+Bu işlemin daha kolay bir yolu da var . `package.json` dosyasında scripts kısmına `"start": "npx nodemon dosyanızın_adı"` artık çalıştırmak için sadece terminale `npm start ` yazmanız yeterli olucak 
+
+
